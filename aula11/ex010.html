@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Teste de Nacionalidade Brasileira</h1>
+    Em que país você nasceu? <input type="text" id="txtresp">
+    <input type="button" value="Verificar" onclick="ver()">
+    <div id ="resul">
+
+    </div>
+
+    <script>
+        function ver(){
+            var r = document.querySelector('input#txtresp')
+            var resultado = document.querySelector('div#resul')
+
+            var resp = r.value
+            resultado.innerHTML = `<p><strong>${resp}</strong> foi o lugar que vc nasceu, logo:</p>`
+
+            if(resp == 'Brasil' || resp == 'brasil'){
+
+                resultado.innerHTML += `<p>Você é <strong>Brasileiro</strong>.</p>`
+            }else {
+                
+                resultado.innerHTML += `<p>Você é <strong>Estrangeiro</strong>.</p>`
+            }
+
+        }
+    </script>
+</body>
+</html>
