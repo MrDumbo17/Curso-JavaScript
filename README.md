@@ -6,4 +6,4 @@
 
 <a href="https://mrdumbo17.github.io/curso-javascript/aula12/ex015/modelo.html" target ="_blanck">Verificador de Idade</a>
 
-<a href="https://mrdumbo17.github.io/curso-javascript/aula14/ex016/modelo.html" target ="_blanck">Contador</a>
+<a href="https://mrdumbo17.github.io/curso-javascript/aula14ex/ex016/modelo.html" target ="_blanck">Contador</a>
