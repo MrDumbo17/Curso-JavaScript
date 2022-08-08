@@ -66,7 +66,6 @@ function fim() { /* quantidade , o maior numero, o menor, soma , media */
        resp.innerHTML += `<p>O menor valor informado foi: ${menor}</p>`
        resp.innerHTML += `<p>A soma dos valores é : ${soma()}</p>`
        resp.innerHTML += `<p>A média dos valores é: ${soma()/tamanho}</p>`
-       resp.innerHTML += valores
     
     }
     
