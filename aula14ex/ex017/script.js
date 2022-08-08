@@ -14,7 +14,7 @@ function gerar() {
         for(var i = 0; i < 10; i++) {
             
             let item = document.createElement('option')
-            item.text = `${valor} + ${i} = ${valor * i}`
+            item.text = `${valor} x ${i} = ${valor * i}`
             tab.appendChild(item)
 
         }
